@@ -26,9 +26,7 @@ const Korail = () => {
         </p>
       </div>
       <div>
-        <Link to="/">
-          <button className="back_key">이전으로</button>
-        </Link>
+     
       </div>
     </div>
   );
