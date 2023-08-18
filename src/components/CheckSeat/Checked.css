@@ -1,0 +1,67 @@
+/* Checked.css */
+
+.check_frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* 컴포넌트 상단에 붙도록 수정 */
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.check_choose {
+    width: 380px;
+    height: 40px; /* 높이 수정 */
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check_image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+.check_control {
+    position: relative;
+}
+
+.check_seat-image {
+    width: 380px; /* 이미지 너비 설정 */
+    height: 600px; /* 이미지 높이 설정 */
+    display: flex;
+}
+
+.check_but {
+    position: relative;
+    right: -122px;
+    top: -48%;
+    color: rgb(48, 15, 15);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.check_rect-container {
+    position: relative; /* 화면 고정 */
+    bottom: 92px;
+    left: 4px;
+    width: 380px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
