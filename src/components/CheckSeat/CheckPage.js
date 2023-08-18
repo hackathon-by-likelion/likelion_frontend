@@ -38,9 +38,10 @@ const CheckPage = () => {
 
   return (
     <div className="train-inquiry-container">
-        <div className="title">
-          <p>열차 조회</p>
-        </div>
+      <div className="title">
+        <p>열차 조회</p>
+      </div>
+      <div className="image_frame">
         <div>
           {image}
           {showButtons && (
@@ -58,6 +59,7 @@ const CheckPage = () => {
             </Link>
           )}
         </div>
+      </div>
     </div>
   );
 };

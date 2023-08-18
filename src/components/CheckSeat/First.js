@@ -24,7 +24,7 @@ const First = () => {
   };
 
   const nextSeatHandler = () => {
-    console.log('다음페이지로');
+    console.log("다음페이지로");
   };
 
   const handleTrain = () => {
@@ -34,19 +34,16 @@ const First = () => {
   const handleSearch = () => {
     setSeatCheck(!seatCheck);
   };
-  
+
   return (
     <div className="f_train-inquiry-container">
+      <div className="f_title">
+        <p>열차 조회</p>
+      </div>
       <div className="f_image-container">
-        <div className="f_title">열차 조회</div>
-        <div>
-          {image}
-         
-        </div>
+        <div>{image}</div>
         <Link to="/alert">
-        <button className="f_final_step">
-            예매
-        </button>
+          <button className="f_final_step"></button>
         </Link>
       </div>
     </div>

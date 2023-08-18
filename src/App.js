@@ -13,7 +13,7 @@ import FinalCheck from "./components/CheckSeat/FinalCheck";
 import Credit from "./components/Credit/Credit";
 import Card from "./components/Credit/Card";
 import Bill from "./components/Credit/Bill";
-
+import Korail from "./components/MainPage/Korail";
 
 const App = () => {
   return (
@@ -25,7 +25,6 @@ const App = () => {
         <Route path="/together_main" element={<TogetherMain />} />
         <Route path="/notice" element={<Notice />} />
         <Route path="/check_seat_page" element={<CheckPage />} />
-        {/*위 주소는 열차 조회하기 눌렀을때 넘어가는 주소*/}
         <Route path="/checked_page" element={<Checked/>}/>
         <Route path="/together_check" element={<TogetherCheck/>}/>
         <Route path="/first" element={<First/>}/>
@@ -33,6 +32,7 @@ const App = () => {
         <Route path="/credit" element={<Credit/>}/>
         <Route path="/card" element={<Card/>}/>
         <Route path="/bill" element={<Bill/>}/>
+        <Route path="/Korail" element={<Korail/>}/>
       </Routes>
     </div>
   );

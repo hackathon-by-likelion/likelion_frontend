@@ -14,7 +14,6 @@ const Tutorial = (props) => {
     console.log("연습해보기 버튼이 클릭되었습니다.");
   };
 
-
   return (
     <div className="main_frame">
       <img
@@ -32,7 +31,9 @@ const Tutorial = (props) => {
         </h2>
       </div>
       <div className="first_button">
-        <button onClick={handleWhatIs}>코레일 톡이란?</button>
+        <Link to="/Korail">
+          <button onClick={handleWhatIs}>코레일 톡이란?</button>
+        </Link>
       </div>
       <div className="practice_button">
         <Link to="/tutorial_level">

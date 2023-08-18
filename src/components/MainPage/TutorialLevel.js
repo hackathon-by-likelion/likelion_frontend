@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const TutorialLevel = () => {
   const handleAlone = () => {
     console.log("혼자해보기 클릭");
+    window.alert("서비스 준비 중입니다...!");
   };
   const handleTogether = () => {
     console.log("같이 해보기 클릭");
@@ -22,9 +23,9 @@ const TutorialLevel = () => {
         <h1>단계 선택</h1>
       </div>
       <div className="button_alone">
-        <Link to="/reserve_main">
-          <button onClick={handleAlone}>혼자 해보기</button>
-        </Link>
+        <button onClick={handleAlone}>
+          혼자 해보기 
+        </button>
       </div>
       <div className="button_together">
         <Link to="/notice">

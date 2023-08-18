@@ -10,7 +10,7 @@
   height: 485px;
   margin: auto;
   margin-top: 50px;
-  border-style: solid;
+  border-style: none;
   border-width: 5px;
   border-radius: 8px;
   padding: 0px 0px 70px 0px;
@@ -29,7 +29,7 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 420px; /* 이미지와 같은 가로 크기 */
+  width: 415px; /* 이미지와 같은 가로 크기 */
   text-align: center;
   border: 1px solid blue;
   background-color: rgb(39, 39, 170);

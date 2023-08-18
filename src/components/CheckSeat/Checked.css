@@ -10,15 +10,16 @@
 }
 
 .check_choose {
-    width: 380px;
+    width: 415px;
     height: 40px; /* 높이 수정 */
-    border: 1px solid blue;
-    background-color: blue;
+    border: 1px solid rgb(47, 47, 171);
+    background-color: rgb(47, 47, 171);
     color: white;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .check_image-container {
@@ -34,7 +35,7 @@
 }
 
 .check_seat-image {
-    width: 380px; /* 이미지 너비 설정 */
+    width: 415px; /* 이미지 너비 설정 */
     height: 600px; /* 이미지 높이 설정 */
     display: flex;
 }
